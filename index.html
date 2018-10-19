@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Totally Trivial Trivia!</title>
+</head>
+<body>
+    <header>
+        <div class="progname">
+            Totally Trivial Trivia!
+        </div>
+    </header>
+    <div class = "container">
+        <button id = 'start'>Start</button>
+        <div id='timing'>
+            <span class = 'timingheader'>Time Remaining:</span>
+            <span id = 'timer'>60</span>
+            <span class = 'timingheader'>seconds</span>
+        </div>
+        <div id = 'question'></div>
+        <div id = 'answers' class = 'answersbox'>
+            <div id="0" class="answers"></div>
+            <div id="1" class="answers"></div>
+            <div id="2" class="answers"></div>
+            <div id="3" class="answers"></div>
+        </div>
+
+        <div id='result'></div>
+        <div class= 'gifs'>
+            <div id = 'losegif'>
+                <img src='https://media.giphy.com/media/l3vR3gvEdsdJl26oU/giphy.gif' width ="380" class="giphy-embed">
+            </div>
+            <div id ='wingif'>
+                <img src='https://media.giphy.com/media/6PW44Jz8tVqCs/giphy.gif' width ="300" class="giphy-embed">
+            </div>  
+        </div>
+    </div>
+ 
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src =  'assets/js/script.js'></script>
+</body>
+</html>
